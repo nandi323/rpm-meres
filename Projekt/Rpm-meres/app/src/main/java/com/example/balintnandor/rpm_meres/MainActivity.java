@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_measure) {
-            //fragmentManager.beginTransaction().replace(R.id.content_frame, new MeasureFragment()).commit();
+            intent = new Intent(this, RotationMeasureActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_info) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new InfoFragment()).commit();
         } else if (id == R.id.nav_test) {

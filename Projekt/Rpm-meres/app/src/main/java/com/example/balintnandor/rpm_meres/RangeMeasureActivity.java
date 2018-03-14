@@ -74,7 +74,6 @@ public class RangeMeasureActivity extends AppCompatActivity
         else
         {
             vibrator.cancel();
-            //16711680 = red
             rangeTesterLayout.setBackgroundColor(Color.RED);
         }
     }
