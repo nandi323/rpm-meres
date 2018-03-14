@@ -16,8 +16,9 @@
     <string name="header_title">Rpm mérés</string>
     <string name="header_email">balintnandor@gmail.com</string>
     <string name="range_test">Szenzor teszt</string>
-    <string name="range_instruction">Amennyiben a szenzor elég közel van a tárgzhoz a telefon vibrálni kezd és a kijelző színe zöldre fog váltani. Ha nem akkor piros marad.</string>
+    <string name="range_instruction">Amennyiben a szenzor elég közel van a tárgzhoz a telefon vibrálni kezd és a kijelző színe zöldre fog váltani. Ha nem akkor piros marad. \nNe felejtsd el megallitani a szenzort!</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
